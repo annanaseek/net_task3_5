@@ -8,5 +8,16 @@ namespace net_task3_5
 {
     class Ocean
     {
+        private string name;
+
+        public Ocean(string oceanName)
+        {
+            name = oceanName;
+        }
+
+        public string GetOceanName()
+        {
+            return name;
+        }
     }
 }

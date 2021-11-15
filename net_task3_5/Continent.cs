@@ -8,5 +8,16 @@ namespace net_task3_5
 {
     class Continent
     {
+        private string name;
+
+        public Continent(string continentName)
+        {
+            name = continentName;
+        }
+
+        public string GetContinentName()
+        {
+            return name;
+        }
     }
 }
